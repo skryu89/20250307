@@ -1,14 +1,30 @@
 
-head {
-text-align: center;   
-}
-
-
-body {
+h1 {
 font-family: "Sawarabi Gothic", sans-serif;
 font-weight: 400;
 font-style: normal;
 text-align: center;
+}
+
+#test-table {
+margin: auto;
+border: solid;
+border-width: 1px;
+border-color: #bbbdae;
+}
+
+.test-header {
+color: #E0D7C1;
+text-align: center;
+border: solid;
+border-width: 1px;
+border-color: #bbbdae;
+}
+
+.test-cell {
+border: solid;
+border-width: 1px;
+border-color: #bbbdae;
 }
 
 
@@ -16,24 +32,29 @@ text-align: center;
 color: #7d940a;
 }
 
+h2 {
+font-family: "Sawarabi Gothic", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+}
+
 .make {
 color: #7d940a;
 }
 
-
 .box {
 display: grid;
-grid-template-columns: 200px 200px 200px 200px 200px 200px;
-gap: 10px;
-text-align: center;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+gap: 0px;
 }
 
 
 .process {
-color: #E0D7c1;
+color: #E0D7C1;
+border: solid;
+border-width: 1px;
+border-color: #bbbdae;
 }
 
 
-th {
-color: #E0D7c1;
-}
